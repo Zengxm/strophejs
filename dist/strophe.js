@@ -2831,6 +2831,19 @@ Strophe.Connection.prototype = {
     this._uniqueId = 0;
   },
 
+  /**
+   * rewriting in order to fit the Vue
+   */
+  setJid: function (jid) {
+    this.jid = jid;
+    this.authzid = Strophe.getBareJidFromJid(this.jid);
+    this.authcid = Strophe.getNodeFromJid(this.jid);
+  },
+
+  getJid: function () {
+    return this.jid;
+  },
+
   /** Function: pause
    *  Pause the request manager.
    *

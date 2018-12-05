@@ -1,11 +1,11 @@
 {
   "name": "strophe.js",
-  "description": "Strophe.js is an XMPP library for JavaScript",
+  "description": "Strophe.js is an XMPP library for JavaScript(fit the Vue)",
   "version": "1.3.1",
   "homepage": "http://strophe.im/strophejs",
   "repository": {
     "type": "git",
-    "url": "git://github.com/strophe/strophejs.git"
+    "url": "git://github.com/Zengxm/strophejs.git"
   },
   "keywords": [
     "xmpp",
